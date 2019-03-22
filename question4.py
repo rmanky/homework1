@@ -19,6 +19,7 @@ def modifiedBinarySearch(k) :
             last = middle - 1
         if(evens[middle] < k):
             first = middle + 1
-    print("k not found")
+    print("k was not found")
+    print("it took", counter, "comparisons")
 
 modifiedBinarySearch(sys.argv[1])
